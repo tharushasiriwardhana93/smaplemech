@@ -1,0 +1,86 @@
+
+    .page-banner { background: linear-gradient(135deg, var(--maroon-dark) 0%, var(--maroon) 60%, #8a1010 100%); color: var(--white); padding: 24px 80px 20px; border-bottom: 3px solid var(--gold); }
+    .breadcrumb { font-family: 'Oswald', sans-serif; font-size: 0.7rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-light); margin-bottom: 6px; display: flex; align-items: center; gap: 8px; }
+    .breadcrumb a { color: rgba(255,255,255,0.6); transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--gold-light); }
+    .breadcrumb span { color: rgba(255,255,255,0.3); }
+    .page-banner h1 { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; color: var(--white); }
+    .page-banner-line { width: 48px; height: 2px; background: var(--gold); margin-top: 12px; }
+
+    /* Tabs */
+    .about-tabs { display: flex; border-bottom: 2px solid #e0dada; margin-bottom: 40px; flex-wrap: wrap; }
+    .tab-btn { font-family: 'Oswald', sans-serif; font-size: 0.8rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; padding: 14px 26px; color: #777; cursor: pointer; border: none; background: none; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color 0.2s, border-color 0.2s; white-space: nowrap; }
+    .tab-btn:hover { color: var(--maroon); }
+    .tab-btn.active { color: var(--maroon); border-bottom-color: var(--maroon); background: var(--off-white); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* Alumni hero */
+    .alumni-hero { background: linear-gradient(135deg, var(--maroon-dark) 0%, #2a0000 100%); color: var(--white); padding: 48px 56px; margin-bottom: 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; border-top: 4px solid var(--gold); }
+    .alumni-hero-text .label { font-family: 'Oswald', sans-serif; font-size: 0.68rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+    .alumni-hero-text h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700; color: var(--white); margin-bottom: 14px; line-height: 1.3; }
+    .alumni-hero-text p { font-size: 0.9rem; color: rgba(255,255,255,0.82); line-height: 1.75; margin-bottom: 20px; }
+    .btn-gold { display: inline-block; background: var(--gold); color: var(--maroon-dark); font-family: 'Oswald', sans-serif; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 12px 28px; font-weight: 600; transition: background 0.2s; cursor: pointer; border: none; }
+    .btn-gold:hover { background: var(--gold-light); }
+    .alumni-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .alumni-stat { background: rgba(255,255,255,0.06); border: 1px solid rgba(201,168,76,0.2); padding: 20px 16px; text-align: center; }
+    .alumni-stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; font-weight: 700; color: var(--gold-light); display: block; line-height: 1; }
+    .alumni-stat-lbl { font-family: 'Oswald', sans-serif; font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.65); margin-top: 6px; display: block; }
+
+    /* Two col */
+    .alumni-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start; }
+
+    /* Alumni profile card */
+    .profile-card { background: var(--white); border: 1px solid #e4dcdc; border-top: 4px solid var(--maroon); padding: 24px; margin-bottom: 20px; display: grid; grid-template-columns: 80px 1fr; gap: 20px; align-items: flex-start; transition: box-shadow 0.2s, transform 0.2s; }
+    .profile-card:hover { box-shadow: 0 6px 24px rgba(102,0,0,0.1); transform: translateY(-2px); }
+    .profile-avatar { width: 72px; height: 72px; border-radius: 50%; background: linear-gradient(135deg, var(--maroon), var(--maroon-dark)); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700; color: var(--gold-light); flex-shrink: 0; border: 2px solid var(--gold); }
+    .profile-name { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--maroon-dark); margin-bottom: 3px; }
+    .profile-batch { font-family: 'Oswald', sans-serif; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); margin-bottom: 5px; }
+    .profile-role { font-size: 0.84rem; color: #555; margin-bottom: 8px; line-height: 1.4; }
+    .profile-quote { font-size: 0.82rem; color: #777; font-style: italic; line-height: 1.6; border-left: 2px solid var(--gold); padding-left: 10px; }
+
+    /* Form */
+    .alumni-form { background: var(--off-white); border: 1px solid #e0dada; border-top: 4px solid var(--gold); padding: 28px 26px; margin-bottom: 24px; }
+    .alumni-form h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; color: var(--maroon-dark); margin-bottom: 6px; }
+    .alumni-form p { font-size: 0.86rem; color: #666; margin-bottom: 20px; line-height: 1.6; }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display: block; font-family: 'Oswald', sans-serif; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--maroon-dark); margin-bottom: 5px; }
+    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 9px 12px; border: 1px solid #ddd; border-left: 3px solid var(--maroon); font-family: 'Source Sans 3', sans-serif; font-size: 0.88rem; color: var(--dark); background: var(--white); outline: none; resize: vertical; }
+    .btn-submit { background: var(--maroon); color: var(--white); font-family: 'Oswald', sans-serif; font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 12px 28px; border: 2px solid var(--maroon); cursor: pointer; transition: background 0.2s, color 0.2s; width: 100%; }
+    .btn-submit:hover { background: transparent; color: var(--maroon); }
+
+    /* Sidebar */
+    .sidebar-card { background: var(--off-white); border: 1px solid #e0dada; border-top: 4px solid var(--maroon); padding: 22px 20px; margin-bottom: 22px; }
+    .sidebar-card h3 { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--maroon-dark); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid #ddd; }
+    .sidebar-card p { font-size: 0.86rem; color: #555; line-height: 1.7; margin-bottom: 10px; }
+    .sidebar-link { display: block; font-size: 0.86rem; color: var(--maroon); font-weight: 600; margin-bottom: 9px; transition: padding-left 0.2s; }
+    .sidebar-link:hover { padding-left: 6px; }
+
+    /* MEP & PEFAA */
+    .org-card { background: var(--white); border: 1px solid #e4dcdc; overflow: hidden; margin-bottom: 28px; }
+    .org-header { background: linear-gradient(135deg, var(--maroon) 0%, var(--maroon-dark) 100%); padding: 28px 32px; display: flex; align-items: center; gap: 20px; border-bottom: 3px solid var(--gold); }
+    .org-logo { width: 64px; height: 64px; border-radius: 50%; background: rgba(255,255,255,0.1); border: 2px solid var(--gold); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 0.85rem; font-weight: 700; color: var(--gold-light); text-align: center; flex-shrink: 0; line-height: 1.2; }
+    .org-header-text .org-name { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 700; color: var(--white); margin-bottom: 4px; }
+    .org-header-text .org-abbr { font-family: 'Oswald', sans-serif; font-size: 0.68rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-light); }
+    .org-body { padding: 24px 32px; }
+    .org-body p { font-size: 0.9rem; color: #555; line-height: 1.75; margin-bottom: 14px; }
+    .org-features { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 20px; }
+    .org-feature { background: var(--off-white); border-left: 3px solid var(--gold); padding: 10px 14px; font-size: 0.83rem; color: #555; line-height: 1.5; }
+    .org-feature strong { display: block; color: var(--maroon-dark); font-family: 'Oswald', sans-serif; font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 3px; }
+    .org-contacts { display: flex; gap: 20px; flex-wrap: wrap; font-size: 0.84rem; color: #666; }
+
+    /* Support donation area */
+    .support-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; margin-bottom: 32px; }
+    .support-card { background: var(--white); border: 1px solid #e4dcdc; border-top: 4px solid var(--maroon); padding: 24px 20px; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+    .support-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(102,0,0,0.1); }
+    .support-icon { font-size: 2.2rem; display: block; margin-bottom: 12px; }
+    .support-card h4 { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--maroon-dark); margin-bottom: 8px; }
+    .support-card p { font-size: 0.83rem; color: #666; line-height: 1.6; margin-bottom: 14px; }
+    .btn-support { display: inline-block; background: var(--maroon); color: var(--white); font-family: 'Oswald', sans-serif; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 9px 20px; border: 1px solid var(--maroon); transition: background 0.2s, color 0.2s; }
+    .btn-support:hover { background: transparent; color: var(--maroon); }
+
+    .about-intro { font-family: 'Playfair Display', serif; font-size: 1.10rem; color: var(--maroon-dark); line-height: 1.75; margin-bottom: 20px; padding-left: 16px; border-left: 3px solid var(--gold); }
+    .about-body {  font-family: 'Playfair Display', serif; font-size: 1.00rem; color: #444; line-height: 1.85; margin-bottom: 16px; }
+
+    @media(max-width:1024px){ .alumni-grid{grid-template-columns:1fr;} .alumni-hero{grid-template-columns:1fr;} .support-grid{grid-template-columns:1fr 1fr;} .org-features{grid-template-columns:1fr;} }
+    @media(max-width:768px){ .page-banner{padding:20px;} .about-tabs{overflow-x:auto;} .support-grid{grid-template-columns:1fr;} .profile-card{grid-template-columns:1fr;} .alumni-hero{padding:28px 20px;} .org-header{padding:20px;} .org-body{padding:20px;} }
